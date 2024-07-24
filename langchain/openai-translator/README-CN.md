@@ -81,7 +81,7 @@ python ai_translator/main.py
 ```bash
 # 将您的 api_key 设置为环境变量
 export OPENAI_API_KEY="sk-xxx"
-python ai_translator/main.py --model_name "gpt-3.5-turbo" --input_file "your_input.pdf" --output_file_format "markdown" --source_language "English" --target_language "Chinese"
+python ai_translator/main.py --model_name "gpt-3.5-turbo" --input_file "tests/test.pdf" --output_file_format "markdown" --source_language "English" --target_language "Chinese"
 ```
 
 ## 许可证
